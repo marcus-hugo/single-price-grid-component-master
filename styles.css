@@ -82,30 +82,22 @@ h1 {
 
 .sign-up {
   width: 270px;
-  height: 47px;
+  height: 33px;
   background-color: hsl(71, 73%, 54%);
+  color: white;
   border: 1px solid rgb(64, 156, 87);
   margin: 0 25px 20px 25px;
   border-radius: 5px;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  text-decoration: none;
+  display: block;
+  padding-top: 15px;
   box-shadow: 2px 5px 10px 0 rgb(43, 152, 150);
 }
 
 .sign-up:hover {
   curser: pointer;
   background-color: rgb(139, 243, 249);
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  color: hsl(71, 73%, 54%);
 }
 
 #why-us-section {
