@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 h1 {
@@ -25,7 +26,6 @@ h1 {
 
 .container {
   color: white;
-  max-width: 600px;
   border-radius: 5px;
 }
 
@@ -45,6 +45,8 @@ h1 {
 .guarantee {
   color: hsl(71, 73%, 54%);
   padding: 0 0 18px 25px;
+  font-size: 19px;
+
 }
 
 .gain-access {
@@ -111,6 +113,7 @@ h1 {
 .why-us-header {
   padding-bottom: 10px;
 }
+
 ul {
   list-style: none;
   margin-left: 25px;
@@ -129,10 +132,75 @@ ul {
   color: hsl(228, 45%, 44%);
 }
 
-@media(min-width: 600px) {
+@media(min-width: 800px) {
 
   .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 640px;
+  }
 
-    min-height: 600px;
+  h1 {
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+
+
+  #join-section {
+    height: 215px;
+    width: 640px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+
+  .join {
+    font-size: 24px;
+    margin-top: ;
+  }
+
+  .guarantee {
+    padding: 0 0 10px 40px;
+  }
+
+  .gain-access {
+    font-size: 16px;
+    padding: 0 0 0 40px;
+  }
+
+  #subscribe-section {
+    height: 260px;
+    border-bottom-left-radius: 7px;
+  }
+
+  .price {
+    margin-left: 40px;
+  }
+
+  .price-includes {
+    margin-left: 40px;
+    margin-bottom: 27px;
+  }
+
+  .sign-up {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+  }
+
+  #why-us-section {
+    height: 260px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 7px;
+  }
+
+  .why-us-header {
+    margin-bottom:12px;
+  }
+
+  ul {
+    margin-left: 40px;
   }
 }
