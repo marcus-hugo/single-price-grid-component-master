@@ -28,7 +28,6 @@ h1 {
 .container {
   color: white;
   max-width: 600px;
-  margin: 40px;
   border-radius: 5px;
 }
 
@@ -51,11 +50,10 @@ h1 {
 }
 
 .gain-access {
-  color: hsl(204, 43%, 93%);
   font-size: 14px;
   padding: 0 25px 0 25px;
   line-height: 1.8;
-  color: rgb(159, 163, 170)
+  color: rgb(159, 163, 170);
 }
 
 #subscribe-section {
@@ -86,6 +84,7 @@ h1 {
   width: 270px;
   height: 47px;
   background-color: hsl(71, 73%, 54%);
+  border: 1px solid rgb(64, 156, 87);
   margin: 0 25px 20px 25px;
   border-radius: 5px;
   text-align: center;
@@ -93,10 +92,20 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 5px 10px 0 rgb(43, 152, 150);
 }
+
+.sign-up:hover {
+  curser: pointer;
+  background-color: rgb(139, 243, 249);
+}
+
 a {
   text-decoration: none;
-  color: white;
+}
+
+a:hover {
+  color: hsl(71, 73%, 54%);
 }
 
 #why-us-section {
@@ -121,7 +130,9 @@ ul {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 25px;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
