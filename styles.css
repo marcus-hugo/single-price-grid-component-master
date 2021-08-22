@@ -1,5 +1,5 @@
 
-html,body, section, h1, h2, p, a, ul, li {
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
 }
 
-h1 {
+h1, h2, h3 {
   font-size: 16px;
   font-weight: 700;
   padding-top: 25px;
@@ -29,7 +29,7 @@ h1 {
   border-radius: 5px;
 }
 
-#join-section {
+.join-section {
   background-color: white;
   width: 320px;
   height: 265px;
@@ -56,7 +56,7 @@ h1 {
   color: rgb(159, 163, 170);
 }
 
-#subscribe-section {
+.subscribe-section {
   background-color: hsl(179, 62%, 43%);
   width: 320px;
   height: 230px;
@@ -102,7 +102,7 @@ h1 {
   border: 2px solid rgb(64, 156, 87);
 }
 
-#why-us-section {
+.why-us-section {
   background-color: rgb(72, 182, 181);
   width: 320px;
   height: 230px;
@@ -149,7 +149,7 @@ ul {
 
 
 
-  #join-section {
+  .join-section {
     height: 215px;
     width: 640px;
     border-top-left-radius: 7px;
@@ -170,7 +170,7 @@ ul {
     padding: 0 0 0 40px;
   }
 
-  #subscribe-section {
+  .subscribe-section {
     height: 260px;
     border-bottom-left-radius: 7px;
   }
@@ -190,7 +190,7 @@ ul {
     width: 240p
   }
 
-  #why-us-section {
+  .why-us-section {
     height: 260px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 7px;
